@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem "capybara", "3.33"
+gem "cucumber", "5.2"
+gem "selenium-webdriver", "3.142.7"
+gem "rspec", "3.9"
+gem "httparty", "0.18.1"
+gem "rufo", "0.12.0"
+
+#Transforma a linguage Girkin, ao rodar no console emulator, numa linguagem que
+#que pode ser usada para automatizar em Ruby
+
+#Arquivo utilizado para instalar as gem´s e assim poder utilizar o Ruby
