@@ -4,7 +4,7 @@ Funcionalidade: Sendo um visitante do site Parodify
     Quero fazer o meu cadastro
     Para que eu possa ouvir minhas músicas favoritas
 
-
+    
     Cenario: Cadastro
         Dado que acesso a página de cadastro
         Quando submeto o meu cadastro com:
@@ -28,4 +28,9 @@ Funcionalidade: Sendo um visitante do site Parodify
             | bruna.mec51@gmail.com.br | 548407 | 075407         | Oops! Senhas não são iguais.         |
             |                          |        |                | Oops! Informe seu email e sua senha. |
 
+    @temp
+    Cenario: Validação do Campo email
+        
+        Quando acesso a página  de Cadastro
+        Então deve exibir o seguinte css: "input[type=email]" 
 
