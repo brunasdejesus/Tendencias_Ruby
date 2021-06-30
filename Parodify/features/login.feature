@@ -19,8 +19,8 @@ Funcionalidade: Login
 
         Exemplos:
             | email                    | senha  |
-            | bruna.mec51@404.com.br   | abc123 |
+            | teste-parodify@404.com.br   | abc123 |
             |                          |        |
-            | bruna.mec51@yahoo.com.br |        |
-            | bruna.mec51@404.com.br   |        |
+            | teste-parodify@yahoo.com.br |        |
+            | teste-parodify@404.com.br   |        |
 
